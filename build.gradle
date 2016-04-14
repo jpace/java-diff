@@ -12,7 +12,7 @@ dependencies {
 }
 
 allprojects {
-    tasks.withType(Compile).all { Compile compile ->
+    tasks.withType(JavaCompile).all { JavaCompile compile ->
         compile.options.debug = true
         compile.options.compilerArgs = ['-Xlint:all']
     }
