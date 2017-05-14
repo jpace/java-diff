@@ -53,4 +53,8 @@ public class NoncomparableObject {
     public String toString() {
         return "\"" + str + "\"";
     }
+
+    public int hashCode() {
+        return str.hashCode();
+    }
 }

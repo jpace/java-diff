@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import junit.framework.TestCase;
-import static org.incava.diff.IUtil.list;
+
+import static org.incava.diff.Util.list;
 
 public class TestLCS extends TestCase {
     public TestLCS(String name) {

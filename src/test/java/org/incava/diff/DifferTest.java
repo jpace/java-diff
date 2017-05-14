@@ -2,7 +2,8 @@ package org.incava.diff;
 
 import java.util.List;
 import junit.framework.TestCase;
-import static org.incava.diff.IUtil.list;
+
+import static org.incava.diff.Util.list;
 
 public class DifferTest extends TestCase {
     public static class TestAddDifference extends Difference {

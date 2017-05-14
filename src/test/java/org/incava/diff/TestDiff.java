@@ -1,8 +1,11 @@
 package org.incava.diff;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 import junit.framework.TestCase;
-import static org.incava.diff.IUtil.list;
+
+import static org.incava.diff.Util.list;
 
 public class TestDiff extends TestCase {
     public TestDiff(String name) {
