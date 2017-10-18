@@ -13,7 +13,7 @@ plugins {
 apply plugin: 'java'
 
 group = 'org.incava'
-version ='1.1.0'
+version ='1.1.1'
 ext {
     pkgName = 'java-diff'
     pkgDesc = 'Longest common subsequences implementation'
